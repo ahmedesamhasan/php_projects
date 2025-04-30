@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Comic Relief', sans-serif;
+}
+
+body {
+  background-color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.comic-relief-regular {
+  font-family: 'Comic Relief', sans-serif;
+  font-weight: 400;
+}
+
+.comic-relief-bold {
+  font-family: 'Comic Relief', sans-serif;
+  font-weight: 700;
+}
+
+.mother {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+  font-size: 20px;
+}
+
+aside {
+  float: left;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 1;
+}
+
+#panel img {
+  display: block;
+  margin: 0 auto 10px;
+  width: 80px;
+  height: 80px;
+}
+
+#panel h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#panel label {
+  display: block;
+  margin: 10px 0 4px;
+}
+
+#panel input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 48%;
+  padding: 8px 0;
+  margin: 5px 1%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+main {
+  float: right;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex: 2;
+  overflow-x: auto;
+}
+
+#tbl {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#tbl th,
+#tbl td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+#tbl thead {
+  background-color: #f7f7f7;
+}
+
+#tbl tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+#tbl tbody tr:hover {
+  background-color: #f0f0f0;
+}
